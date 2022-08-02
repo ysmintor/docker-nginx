@@ -40,9 +40,9 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64
           push: true
           tags: |
-            superng6/nginx:stable-${{ steps.set-version.outputs.version }}
-            superng6/nginx:latest
-            superng6/nginx:debian-stable-${{ steps.set-version.outputs.version }}
-            superng6/nginx:debian-latest
+            ysmintor/nginx:stable-${{ steps.set-version.outputs.version }}
+            ysmintor/nginx:latest
+            ysmintor/nginx:debian-stable-${{ steps.set-version.outputs.version }}
+            ysmintor/nginx:debian-latest
 
 
